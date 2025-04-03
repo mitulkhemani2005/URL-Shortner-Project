@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 app.use(express.json())
-const count = require('./count')
 //DataBase Integration Started
 const mongoose = require('mongoose')
 mongoose.connect('mongodb://localhost:27017/URL-Shortner')
